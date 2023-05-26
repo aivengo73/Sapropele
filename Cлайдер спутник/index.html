@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale = 1">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <title>Спутник</title>
+  <!-- вариант подключения через Google Fonts -->
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> -->
+  <!-- normalize.css - сброс к единым стилям для всех браузеров -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/hamburgers.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <div class="page">
+    <!-- шапка сайта -->
+     <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <button class="hamburger is-active hamburger--squeeze  header__menu-toggle " type="button" onclick="this.classList.toggle('is-active')">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+         
+          <div class="header__logo">
+            <img src="images/sputnik-logo.svg" alt="Спутник">
+          </div>
+
+           <!-- навигация  -->
+    <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a href="#">Каталог</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#">Бренды</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#">Доставка и оплата</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#">Где купить Sputnik</a>
+              </li>
+            </ul>
+          </nav> 
+          <!-- //навигация -->
+          
+ <div class="header__right">
+            <a href="tel:+74952884424" class="header__phone">
+              <span>+7 (495) 288-44-24</span>
+            </a>
+            <a href="#" class="header__cart">
+              <img src="images/cart.svg" alt="Корзина">
+              <span class="header__cart-number">3</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header> 
+     <!-- //шапка сайта -->
+
+    <!-- слайдер -->
+    <div class="topslider">
+      <!-- контейнер слайдера -->
+      <div class="topslider__list js-topslider">
+        <!-- 1 -->
+        <div class="topslider__slide">
+          <div class="container">
+            <div class="topslider__slide-row">
+              <!-- text -->
+              <!-- <div class="topslider__slide-text">
+                <div class="topslider__slide-title">
+                  <strong>Новый взгляд</strong> на привычные вещи
+                </div>
+                <a href="#" class="btn topslider__slide-btn">Посмотреть</a>
+              </div> -->
+              <!-- img -->
+              <div class="topslider__slide-img">
+                <img src="images/slider/slide-1.jpg" alt="slide1">
+              </div>
+              <div class="topslider__slide-img">
+                <img src="images/slider/slide-1.jpg" alt="slide1">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="topslider__slide">
+          <div class="container">
+            <div class="topslider__slide-row">
+              <!-- text -->
+              <!-- <div class="topslider__slide-text">
+                <div class="topslider__slide-title"><strong>Желтый цвет</strong> всегда в моде</div>
+                <a href="#" class="btn topslider__slide-btn">Посмотреть</a>
+              </div> -->
+              <!-- img -->
+              <div class="topslider__slide-img">
+                <img src="images/slider/slide-1.jpg" alt="slide1">
+              </div>
+              <div class="topslider__slide-img">
+                <img src="images/slider/slide-2.jpg" alt="slide2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="topslider__slide">
+          <div class="container">
+            <div class="topslider__slide-row">
+              <!-- text -->
+              <!-- <div class="topslider__slide-text">
+                <div class="topslider__slide-title"><strong>Скидки 25% </strong> на новую коллекцию</div>
+                <a href="#" class="btn topslider__slide-btn">Посмотреть</a>
+              </div> -->
+              <!-- img -->
+              <div class="topslider__slide-img">
+                <img src="images/slider/slide-1.jpg" alt="slide1">
+              </div>
+              <div class="topslider__slide-img">
+                <img src="images/slider/slide-3.jpg" alt="slide3">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- каталог -->
+    <!-- <section class="section section--grey">
+      <div class="container">
+         grid container -->
+    <!-- <div class="catalog">
+           1 -->
+    <!-- <a href="#" class="catalog__item catalog__item--1">
+            <span class="catalog__item-title">Тоут</span>
+          </a>
+           2 -->
+    <!-- <a href="#" class="catalog__item catalog__item--2">
+            <span class="catalog__item-title">Рюкзаки </span>
+          </a> -->
+    <!-- 3 -->
+    <!-- <a href="#" class="catalog__item catalog__item--3">
+            <span class="catalog__item-title">Поясные</span>
+          </a> -->
+    <!-- 4 -->
+    <!-- <a href="#" class="catalog__item catalog__item--4">
+            <span class="catalog__item-title">Роллтоп</span>
+          </a>  -->
+    <!-- 5 -->
+    <!-- <a href="#" class="catalog__item catalog__item--5">
+            <span class="catalog__item-title">Кросс-боди</span>
+          </a>  -->
+    <!-- more -->
+    <!-- <a href="#" class="catalog__more">
+              <span>Смотреть <br>всю коллекцию</span>
+              <svg width="38" height="34" viewBox="0 0 38 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0.352905" y1="17" x2="35.647" y2="17" stroke="#999999" stroke-width="2"/>
+                <path d="M22.8529 1.5L36.5294 17L22.8529 32.5" stroke="#999999" stroke-width="2"/>
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- описание -->
+    <!-- <section class="section">
+      <div class="container">
+        <div class="about">
+          <div class="about__video">
+            <a class="videobox" data-fancybox href="https://youtu.be/YOjAuJ1yADI"><img src="images/video-cover.jpg" alt=""></a>
+          </div>
+          <div class="about__text">
+            <h2 class="section__title">Кто мы</h2>
+            <p><strong>SPUTNIK</strong> — универсальные и сдержанные вещи, которые дополняют, а не перебивают. Они не выходят на первый план; их задача — раскрыть образ своего владельца. Ведь основное для нас — личность человека и вещи, которыми он наполняет наши рюкзаки и сумки.</p>
+            <p>В течение 5 лет мы разрабатываем новые модели и сотрудничаем с международными и локальными брендами.</p>
+          </div>
+        </div>
+      </div>
+    </section>     описание -->
+
+    <!-- преимущества -->
+    <!-- <section class="section section--grey"> 
+      <div class="container">
+        <div class="features">
+          <div class="features__item">
+            <img src="images/truck.svg" alt="">
+            <p>Заказы по России отправляем <br>на следующий день после оплаты</p>
+          </div>
+          <div class="features__item">
+            <img src="images/cards.svg" alt="">
+            <p>Оплатить заказ вы можете <br>любой картой на сайте</p>
+          </div>
+          <div class="features__item">
+            <img src="images/time.svg" alt="">
+            <p>Возврат или обмен <br>в течение 30 дней</p>
+          </div>
+        </div>
+      </div>
+     </section> преимущества  -->
+
+    <!-- продукты -->
+    <!-- <section class="section">
+      <div class="container">
+        <h2 class="section__title">Недавно купили</h2>
+        <div class="product-grid">
+          <div class="product-card">
+            <div class="product-card__img"><a href="#"><img src="images/products/product-1.jpg" alt="product-1"></a></div>
+            <div class="product-card__info">
+              <a class="product-card__title" href="#">Кросс-боди VERA</a>
+              <div class="product-card__price">3 260 ₽</div>
+            </div>
+          </div>
+          <div class="product-card">
+            <span class="product-card__label">sale</span>
+            <div class="product-card__img"><a href="#"><img src="images/products/product-2.jpg" alt="product-2"></a></div>
+            <div class="product-card__info">
+              <a class="product-card__title" href="#">Тоут MARCEL</a>
+              <div class="product-card__price">12 650 ₽ <span class="product-card__oldprice">14 190 ₽   </span></div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-card__img"><a href="#"><img src="images/products/product-3.jpg" alt="product-3"></a></div>
+            <div class="product-card__info">
+              <a class="product-card__title" href="#">Рюкзак М1</a>
+              <div class="product-card__price">4 650 ₽</div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-card__img"><a href="#"><img src="images/products/product-4.jpg" alt="product-4"></a></div>
+            <div class="product-card__info">
+              <a class="product-card__title" href="#">Поясная сумка INGE</a>
+              <div class="product-card__price">2 990 ₽</div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>    продукты -->
+
+    <!-- подписка -->
+    <!-- <section class="subcribe-form">
+      <div class="container">
+        <div class="subcribe-form__header">
+          <h2 class="subcribe-form__title">Подпишись!</h2>
+          <p>Информация о жизни бренда и новых коллекциях.</p>
+        </div>
+        <form action="/">
+          <div class="subcribe-form__fields">
+            <input class="input-text" type="email" placeholder="Ваш email" required>
+            <button class="btn btn--white subcribe-form__btn" type="submit">Отправить</button>
+          </div>
+        </form>
+      </div>
+    </section> -->
+
+    <!-- faq -->
+    <!-- <section class="section">
+      <div class="container">
+        <h2 class="section__title">Вопрос-ответ</h2>
+        <div class="faq">
+          <input type="checkbox" id="faq-1" class="faq__toggle">
+          <label for="faq-1" class="faq__title">
+            <span>Дизайн точно уникальный? Кто придумывает?</span>
+            <i class="faq__title-icon"></i>
+          </label>
+          <div class="faq__content">Мы предоставляем гарантию в 1 год с момента покупки. Если в течение этого срока вы обнаружили дефект изделия, напишите нам, и мы обязательно найдём решение. Обратите внимание, что гарантия не будет действовать, если дефект или неисправность вызваны неаккуратным использованием или несоблюдением правил по уходу.</div>
+        </div>
+        <div class="faq">
+          <input type="checkbox" id="faq-2" class="faq__toggle">
+          <label for="faq-2" class="faq__title">
+            <span>Как ухаживать за сумками? </span>
+            <i class="faq__title-icon"></i>
+          </label>
+          <div class="faq__content">Мы предоставляем гарантию в 1 год с момента покупки. Если в течение этого срока вы обнаружили дефект изделия, напишите нам, и мы обязательно найдём решение. Обратите внимание, что гарантия не будет действовать, если дефект или неисправность вызваны неаккуратным использованием или несоблюдением правил по уходу.</div>
+        </div>
+        <div class="faq">
+          <input type="checkbox" id="faq-3" class="faq__toggle">
+          <label for="faq-3" class="faq__title">
+            <span>Я могу вернуть заказ, если он просто не подойдёт?</span>
+            <i class="faq__title-icon"></i>
+          </label>
+          <div class="faq__content">Мы предоставляем гарантию в 1 год с момента покупки. Если в течение этого срока вы обнаружили дефект изделия, напишите нам, и мы обязательно найдём решение. Обратите внимание, что гарантия не будет действовать, если дефект или неисправность вызваны неаккуратным использованием или несоблюдением правил по уходу.</div>
+        </div>
+        <div class="faq">
+          <input type="checkbox" id="faq-4" class="faq__toggle">
+          <label for="faq-4" class="faq__title">
+            <span>Вы работаете с корпоративными клиентами?</span>
+            <i class="faq__title-icon"></i>
+          </label>
+          <div class="faq__content">Мы предоставляем гарантию в 1 год с момента покупки. Если в течение этого срока вы обнаружили дефект изделия, напишите нам, и мы обязательно найдём решение. Обратите внимание, что гарантия не будет действовать, если дефект или неисправность вызваны неаккуратным использованием или несоблюдением правил по уходу.</div>
+        </div>
+      </div>
+    </section>   END faq -->
+
+    <!-- gallery -->
+    <!-- <section class="section section-photogallery">
+      <div class="container">
+        <h2 class="section__title">Наш Instagram</h2>
+          <div class="photogallery">
+            <div class="photogallery__list">
+              <a data-fancybox="gallery" href="images/instagram/photo 1-full.jpg" class="photogallery__item"><img src="images/instagram/photo 1.jpg" alt=""></a>
+              <a data-fancybox="gallery" href="images/instagram/photo 2-full.jpg" class="photogallery__item"><img src="images/instagram/photo 2.jpg" alt=""></a>
+              <a data-fancybox="gallery" href="images/instagram/photo 3-full.jpg" class="photogallery__item"><img src="images/instagram/photo 3.jpg" alt=""></a>
+              <a data-fancybox="gallery" href="images/instagram/photo 4-full.jpg" class="photogallery__item"><img src="images/instagram/photo 4.jpg" alt=""></a>
+              <a data-fancybox="gallery" href="images/instagram/photo 5-full.jpg" class="photogallery__item"><img src="images/instagram/photo 5.jpg" alt=""></a>
+              <a data-fancybox="gallery" href="images/instagram/photo 6-full.jpg" class="photogallery__item"><img src="images/instagram/photo 6.jpg" alt=""></a>
+            </div>
+          </div>
+      </div>
+    </section>   END gallery -->
+
+    <!-- map -->
+    <section class="section-map">
+      <!-- <div class="container">
+        <h2 class="section__title">Купить Sputnik в
+          <a href="#">Нижнем Новгороде</a>
+        </h2>
+      </div> -->
+      <div class="section-map__container">
+        <script type="text/javascript" charset="utf-8" async
+          src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A070bf736220e5220fbf6be95a82a47434a8ca5fa139aa2b0184fb8003bedd6e6&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=false"></script>
+      </div>
+    </section> <!-- END map -->
+
+    <!-- подвал -->
+    <footer class="footer">
+      <div class="container footer__row">
+        <div class="footer__logo"><img src="images/sputnik-logo.svg" alt="Sputnik" width="123"></div>
+        
+        <ul class="footer__menu">
+          <li><a href="#">Каталог</a></li>
+          <li><a href="#">О компании</a></li>
+          <li><a href="#">Доставка и оплата</a></li>
+          <li><a href="#">Где купить Sputnik</a></li>
+        </ul>
+
+        <div class="footer__social">
+          <a href="#" target="_blank"><img src="images/vk.svg" alt="vk"></a>
+          <a href="#" target="_blank"><img src="images/fb.svg" alt="fb"></a>
+          <a href="#" target="_blank"><img src="images/instagram.svg" alt="instagram"></a>
+        </div>
+      </div>
+
+      <div class="footer__copyright">© 2017-2020 Все права защищены. Использование материалов с сайта без разрешения запрещено!
+      </div>
+    </footer>  
+    <!-- подвал -->
+
+  </div>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <!-- <script src="js/jquery.fancybox.min.js"></script> -->
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
